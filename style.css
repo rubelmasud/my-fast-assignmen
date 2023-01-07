@@ -35,6 +35,95 @@
     background-color: rgb(210, 84, 30);
     color: white;
     font-size: 20px;
+    font-weight: bold;
 }
 
 /* header part end */
+
+/* start main conteinar */
+
+.main-contant{
+   margin-top: 100px;
+    width: 1100px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.contant-image{
+    width: 540px;
+    height: 650px;
+   margin-right: 80px;
+}
+
+.main-contant-banner{
+    width: 400px;
+    height: 400px;
+}
+
+.contant-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contant-banner{
+    color: rgba(5, 4, 4, 0.79);
+    line-height: 25px;
+}
+
+.contant-list{
+    color: rgba(5, 4, 4, 0.763);
+    line-height: 30px;
+}
+/* end main conteinar */
+
+/* start main plan */
+.main-plan{
+    padding-top: -150px;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+.plan-item{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.plan{
+    margin: 0 80px;
+}
+
+/* start -contant -images */
+
+.conteinar-image-main{
+    background-repeat: no-repeat;
+    border-radius: 10px;
+   margin: auto;
+    width: 75%;
+    border: none;
+    height: 200px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('images/watch.png'); 
+   
+}
+
+.conteinar-image-banner{
+  margin-left: 60px; 
+  padding-top: 14px; 
+}
+
+.conteinar-image-banner h3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.conteinar-image-banner button{
+    color: #F15B22;
+    width: 120px;
+    height: 45px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+/* end -contant -image */
